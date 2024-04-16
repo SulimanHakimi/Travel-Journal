@@ -20,7 +20,7 @@ function Card(data) {
         </div>
         <div className="flex flex-col gap-1">
           <span className="font-semibold text-[#423f3f]">{data.date}</span>
-          <p className="text-base">{data.desc}</p>
+          <p className="text-base text-ellipsis overflow-hidden line-clamp-3 ">{data.desc}</p>
         </div>
       </div>
     </div>
