@@ -2,7 +2,7 @@ import React from "react";
 
 function Nav() {
   return (
-    <div className="flex mb-8 lg:mb-10 items-center gap-2 justify-center px-4 py-6 w-full lg:w-4/5 bg-[#F55A5A]">
+    <div className="flex mb-8 lg:mb-10 shadow-md items-center gap-2 justify-center px-4 py-6 w-full lg:w-4/5 bg-[#F55A5A]">
       <svg
         width="24"
         height="24"
@@ -17,7 +17,7 @@ function Nav() {
           fill="white"
         />
       </svg>
-      <h1 className="text-white font-medium text-lg">my travel journal.</h1>
+      <h1 className="text-white font-medium text-lg">My travel journal.</h1>
     </div>
   );
 }
